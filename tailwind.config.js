@@ -7,19 +7,26 @@ module.exports = {
 	},
 	plugins: [require("daisyui")],
 	daisyui: {
-		darkTheme: "dark",
+		darkTheme: "gs-dark",
 		themes: [
 			{
-				mytheme: {
-					primary: "#a991f7",
-					secondary: "#f6d860",
-					accent: "#37cdbe",
-					neutral: "#3d4451",
+				"gs-light": {
+					primary: "#6366f1",
+					secondary: "#2dd4bf",
+					accent: "#fde047",
+					neutral: "#334155",
 					"base-100": "#ffffff",
 				},
 			},
-			"dark",
-			"cupcake",
+			{
+				"gs-dark": {
+					primary: "#818cf8",
+					secondary: "#2dd4bf",
+					accent: "#fef08a",
+					neutral: "#ffffff",
+					"base-100": "#334155",
+				},
+			},
 		],
 	},
 };
