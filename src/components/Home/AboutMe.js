@@ -55,7 +55,7 @@ const AboutMe = () => {
 				. I know, it won&apos;t be so easy. But I can at least try it
 				out. And before that, I want to be:
 			</p>
-			<ul className='ml-8 steps steps-vertical'>
+			<ul className='ml-6 steps steps-vertical'>
 				<li className='after:font-bold step step-secondary'>
 					a content creator, then
 				</li>

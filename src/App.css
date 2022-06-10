@@ -27,6 +27,9 @@ em {
 	@apply px-5;
 	@apply pb-0;
 }
+::marker {
+	@apply text-primary;
+}
 .steps-vertical .step {
 	@apply min-h-12;
 }

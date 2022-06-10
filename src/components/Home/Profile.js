@@ -1,6 +1,9 @@
 import React from "react";
 import "hover.css";
 import picture from "../../assets/images/my-picture.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Profile = () => {
 	return (
@@ -25,13 +28,38 @@ const Profile = () => {
 							to gain more knowledge and experience about the
 							chances and challenges of the IT field.
 						</p>
-						<a
-							className='bg-gradient-to-r border-0 btn btn-primary font-extrabold from-secondary hover:from-secondary-focus shadow-md to-primary hover:to-primary-focus'
-							href='https://drive.google.com/file/d/16IdpoIOfWhEZ6-Oc_kkPP8d_67j6muxN/view?usp=sharing'
-							rel='noreferrer'
-							target='_blank'>
-							See My Resume
-						</a>
+						<div className='space-x-4'>
+							<a
+								className='bg-gradient-to-r border-0 btn btn-primary font-extrabold from-secondary hover:from-secondary-focus shadow-md text-[#1A2238] to-primary hover:to-primary-focus'
+								href='https://tinyurl.com/nasifrahman-resume'
+								rel='noreferrer'
+								target='_blank'>
+								<FontAwesomeIcon
+									className='bg-[#1A2238] mr-2 rounded-md text-xl text-red-500'
+									icon={faFilePdf}></FontAwesomeIcon>{" "}
+								Resume
+							</a>
+							<a
+								className='bg-gradient-to-r border-0 btn btn-primary font-extrabold from-secondary hover:from-secondary-focus shadow-md text-[#1A2238] to-primary hover:to-primary-focus'
+								href='https://github.com/genuinestalwart'
+								rel='noreferrer'
+								target='_blank'>
+								<FontAwesomeIcon
+									className='mr-2 text-xl text-[#1A2238]'
+									icon={faGithub}></FontAwesomeIcon>{" "}
+								GitHub
+							</a>
+							<a
+								className='bg-gradient-to-r border-0 btn btn-primary font-extrabold from-secondary hover:from-secondary-focus shadow-md text-[#1A2238] to-primary hover:to-primary-focus'
+								href='https://www.linkedin.com/in/genuinestalwart/'
+								rel='noreferrer'
+								target='_blank'>
+								<FontAwesomeIcon
+									className='mr-2 text-xl text-blue-800'
+									icon={faLinkedin}></FontAwesomeIcon>{" "}
+								LinkedIn
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
