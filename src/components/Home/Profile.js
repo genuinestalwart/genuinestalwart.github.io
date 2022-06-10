@@ -13,6 +13,7 @@ const Profile = () => {
 					<img
 						src={picture}
 						className='hvr-grow outline outline-secondary hover:outline-primary rounded-full w-2/5'
+						alt='my picture'
 					/>
 
 					<div className='space-y-6'>
