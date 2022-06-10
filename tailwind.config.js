@@ -13,17 +13,17 @@ module.exports = {
 				"gs-light": {
 					primary: "#6366f1",
 					secondary: "#2dd4bf",
-					accent: "#fde047",
+					accent: "#eef2ff",
 					neutral: "#334155",
-					"base-100": "#ffffff",
+					"base-100": "#e2e8f0",
 				},
 			},
 			{
 				"gs-dark": {
 					primary: "#818cf8",
 					secondary: "#2dd4bf",
-					accent: "#fef08a",
-					neutral: "#ffffff",
+					accent: "#1A2238",
+					neutral: "#e2e8f0",
 					"base-100": "#334155",
 				},
 			},
