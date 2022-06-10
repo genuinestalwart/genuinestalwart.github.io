@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Salsa&display=swap");
 
 body {
 	font-family: "Nunito", sans-serif;
@@ -8,8 +8,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-	font-family: "Audiowide", cursive;
+h6,
+em {
+	font-family: "Salsa", cursive;
 }
 .tab-lifted,
 .tab-lifted.tab-active {
@@ -25,4 +26,14 @@ h6 {
 	@apply border-secondary;
 	@apply px-5;
 	@apply pb-0;
+}
+.steps-vertical .step {
+	@apply min-h-12;
+}
+.steps .step-secondary + .step-secondary:before,
+.steps .step-secondary:after {
+	@apply text-primary-focus;
+}
+.steps-vertical .step:before {
+	@apply w-1;
 }

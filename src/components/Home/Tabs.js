@@ -9,7 +9,7 @@ const Tabs = () => {
 					<NavLink
 						to='/'
 						className={({ isActive }) =>
-							`font-bold rounded-t-2xl tab tab-lg tab-lifted ${
+							`font-bold rounded-t-xl tab tab-lg tab-lifted ${
 								isActive ? "tab-active" : ""
 							} text-primary`
 						}>
@@ -18,7 +18,7 @@ const Tabs = () => {
 					<NavLink
 						to='/skills'
 						className={({ isActive }) =>
-							`font-bold rounded-t-2xl tab tab-lg tab-lifted ${
+							`font-bold rounded-t-xl tab tab-lg tab-lifted ${
 								isActive ? "tab-active" : ""
 							} text-primary`
 						}>
@@ -27,7 +27,7 @@ const Tabs = () => {
 					<NavLink
 						to='/projects'
 						className={({ isActive }) =>
-							`font-bold rounded-t-2xl tab tab-lg tab-lifted ${
+							`font-bold rounded-t-xl tab tab-lg tab-lifted ${
 								isActive ? "tab-active" : ""
 							} text-primary`
 						}>
@@ -36,7 +36,7 @@ const Tabs = () => {
 					<NavLink
 						to='/contact'
 						className={({ isActive }) =>
-							`font-bold rounded-t-2xl tab tab-lg tab-lifted ${
+							`font-bold rounded-t-xl tab tab-lg tab-lifted ${
 								isActive ? "tab-active" : ""
 							} text-primary`
 						}>
